@@ -148,8 +148,6 @@ Text Label 9450 4350 2    50   ~ 0
 IOCS16
 Text Label 9450 4250 2    50   ~ 0
 GND
-Text Label 9450 4150 2    50   ~ 0
-ALE
 Text Label 9450 4050 2    50   ~ 0
 GND
 Text Label 9450 3950 2    50   ~ 0
@@ -240,8 +238,6 @@ NoConn ~ 9450 4450
 NoConn ~ 9100 4450
 NoConn ~ 9100 4350
 NoConn ~ 9450 4350
-NoConn ~ 9100 4150
-NoConn ~ 9450 4150
 $Comp
 L Device:LED D1
 U 1 1 5F2345D6
@@ -279,16 +275,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0114
 U 1 1 5F25F1E2
-P 9500 4750
-F 0 "#PWR0114" H 9500 4500 50  0001 C CNN
-F 1 "GND" H 9505 4577 50  0000 C CNN
-F 2 "" H 9500 4750 50  0001 C CNN
-F 3 "" H 9500 4750 50  0001 C CNN
-	1    9500 4750
+P 9700 4750
+F 0 "#PWR0114" H 9700 4500 50  0001 C CNN
+F 1 "GND" H 9705 4577 50  0000 C CNN
+F 2 "" H 9700 4750 50  0001 C CNN
+F 3 "" H 9700 4750 50  0001 C CNN
+	1    9700 4750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9100 4750 9500 4750
 Wire Wire Line
 	8200 4250 8600 4250
 Wire Wire Line
@@ -953,4 +947,13 @@ Wire Wire Line
 	3700 4750 3750 4750
 Wire Wire Line
 	3200 3250 3600 3250
+Text Label 9450 4150 2    50   ~ 0
+CSEL
+Wire Wire Line
+	9700 4150 9700 4750
+Wire Wire Line
+	9100 4150 9700 4150
+Connection ~ 9700 4750
+Wire Wire Line
+	9100 4750 9700 4750
 $EndSCHEMATC
