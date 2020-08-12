@@ -91,7 +91,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "IDEHat/"))
+      (outputdirectory "gerbers/RevA/"))
   )
 
   (net 0 "")
