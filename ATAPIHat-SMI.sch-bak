@@ -957,10 +957,10 @@ Wire Wire Line
 Wire Wire Line
 	3700 2350 3700 2400
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5F3769FD
 P 3500 2400
-F 0 "C?" V 3248 2400 50  0000 C CNN
+F 0 "C1" V 3248 2400 50  0000 C CNN
 F 1 "100nF" V 3339 2400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3538 2250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 3500 2400 50  0001 C CNN
@@ -969,10 +969,10 @@ F 4 " C1525" V 3500 2400 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0108
 U 1 1 5F3772BA
 P 3300 2450
-F 0 "#PWR?" H 3300 2200 50  0001 C CNN
+F 0 "#PWR0108" H 3300 2200 50  0001 C CNN
 F 1 "GND" H 3305 2277 50  0000 C CNN
 F 2 "" H 3300 2450 50  0001 C CNN
 F 3 "" H 3300 2450 50  0001 C CNN
@@ -989,39 +989,15 @@ Connection ~ 3700 2400
 Wire Wire Line
 	3700 2400 3700 2450
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 5F38AB59
 P 8850 4100
-F 0 "C?" H 8965 4146 50  0000 L CNN
+F 0 "C2" H 8965 4146 50  0000 L CNN
 F 1 "22uF" H 8965 4055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8888 3950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf" H 8850 4100 50  0001 C CNN
 F 4 "C45783" H 8850 4100 50  0001 C CNN "LCSC"
 	1    8850 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F38B766
-P 9300 4100
-F 0 "C?" H 9415 4146 50  0000 L CNN
-F 1 "22uF" H 9415 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9338 3950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf" H 9300 4100 50  0001 C CNN
-F 4 "C45783" H 9300 4100 50  0001 C CNN "LCSC"
-	1    9300 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F394157
-P 9750 4100
-F 0 "C?" H 9865 4146 50  0000 L CNN
-F 1 "22uF" H 9865 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9788 3950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf" H 9750 4100 50  0001 C CNN
-F 4 "C45783" H 9750 4100 50  0001 C CNN "LCSC"
-	1    9750 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1031,67 +1007,4 @@ Wire Wire Line
 Wire Wire Line
 	8850 4250 8850 4300
 Connection ~ 8850 4300
-Wire Wire Line
-	8850 4300 9300 4300
-Wire Wire Line
-	9300 4300 9300 4250
-Wire Wire Line
-	9300 4300 9750 4300
-Wire Wire Line
-	9750 4300 9750 4250
-Connection ~ 9300 4300
-Wire Wire Line
-	8850 3900 9300 3900
-Wire Wire Line
-	9750 3900 9750 3950
-Connection ~ 8850 3900
-Wire Wire Line
-	9300 3950 9300 3900
-Connection ~ 9300 3900
-Wire Wire Line
-	9300 3900 9750 3900
-$Comp
-L Device:C C?
-U 1 1 5F3DF36F
-P 10200 4100
-F 0 "C?" H 10315 4146 50  0000 L CNN
-F 1 "22uF" H 10315 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10238 3950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf" H 10200 4100 50  0001 C CNN
-F 4 "C45783" H 10200 4100 50  0001 C CNN "LCSC"
-	1    10200 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F3DF376
-P 10650 4100
-F 0 "C?" H 10765 4146 50  0000 L CNN
-F 1 "22uF" H 10765 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10688 3950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf" H 10650 4100 50  0001 C CNN
-F 4 "C45783" H 10650 4100 50  0001 C CNN "LCSC"
-	1    10650 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 4300 10200 4300
-Wire Wire Line
-	10200 4300 10200 4250
-Wire Wire Line
-	10200 4300 10650 4300
-Wire Wire Line
-	10650 4300 10650 4250
-Connection ~ 10200 4300
-Wire Wire Line
-	9750 3900 10200 3900
-Wire Wire Line
-	10650 3900 10650 3950
-Wire Wire Line
-	10200 3950 10200 3900
-Connection ~ 10200 3900
-Wire Wire Line
-	10200 3900 10650 3900
-Connection ~ 9750 3900
-Connection ~ 9750 4300
 $EndSCHEMATC

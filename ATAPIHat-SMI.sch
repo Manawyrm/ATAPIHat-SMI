@@ -1007,4 +1007,26 @@ Wire Wire Line
 Wire Wire Line
 	8850 4250 8850 4300
 Connection ~ 8850 4300
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F423852
+P 9600 800
+F 0 "H?" H 9700 846 50  0000 L CNN
+F 1 "ToolingHole" H 9700 755 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 9600 800 50  0001 C CNN
+F 3 "~" H 9600 800 50  0001 C CNN
+	1    9600 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F4243FA
+P 10350 800
+F 0 "H?" H 10450 846 50  0000 L CNN
+F 1 "ToolingHole" H 10450 755 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 10350 800 50  0001 C CNN
+F 3 "~" H 10350 800 50  0001 C CNN
+	1    10350 800 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
