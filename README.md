@@ -12,8 +12,7 @@ which are not yet supported in the kernel driver.
 Rev.A testboards were ordered but not tested yet. **Proceed at your own risk.** 
 
 ### Manufacturing
-
-Manufacturing files for JLCs automatic assembly service can be found at `gerbers/RevA/ATAPIHat-SMI/`.  
+Manufacturing files for [JLCPCBs](https://jlcpcb.com) automatic assembly service can be found at `gerbers/RevA/ATAPIHat-SMI/`.  
 5 adapter boards cost ~15$ (incl. components). 
 
 ### Additional info 
